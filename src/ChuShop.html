@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/plugin/font-awesome.css" />
+    <link rel="stylesheet" href="/css/plugin/elegant-icons.css" />
+    <link rel="stylesheet" href="/css/plugin/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/customer/CssChuShop.css" />
+    <link rel="stylesheet" href="/css/customer/CssCategory.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Quan ly</title>
+  </head>
+  <body>
+    <header ng-include="'/src/layout/header-chu-shop.html'"></header>
+    <section ng-view></section>
+    <footer ng-include="'./layout/footer-chu-shop.html'"></footer>
+    <script src="/js/plugin/bootstrap.bundle.min.js"></script>
+    <script src="/js/plugin/bootstrap.min.js"></script>
+    <script src="/lib/angular.js"></script>
+    <script src="/lib/angular-route.min.js"></script>
+    <script src="/src/config/api.js"></script>
+    <!-- <script src="/src/controller/product-controller.js"></script> -->
+    <script src="/src/controller/crud-category.js"></script>
+    <script src="/src/controller/crud-product.js "></script>
+    <script src="/src/controller/acc-controller.js"></script>
+    <script src="routeQuanLy.js"></script>
+    <!-- <script src="/src/route.js"></script> -->
+  </body>
+</html>

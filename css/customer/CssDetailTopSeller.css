@@ -1,0 +1,58 @@
+.Detail-Topseller-hinh-anh {
+  float: left;
+  width: 45%;
+}
+.Detail-Topseller-content {
+  width: 50%;
+  float: right;
+}
+.Detail-Topseller-content-title {
+  font-size: 2.06rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: #000;
+  line-height: 2.53rem;
+  letter-spacing: 2.5px;
+}
+.span-details {
+  color: rgb(184, 181, 181);
+  font-size: 0.86rem;
+  font-family: Jost-Regular, Jost;
+
+  line-height: 2.2rem;
+}
+.detail {
+  font-size: 0.76rem;
+  font-family: Jost-Regular, Jost;
+  color: #000;
+  line-height: 2.2rem;
+}
+.detail-top {
+  margin-top: 50px;
+  /* margin-bottom: 100px; */
+}
+.btn-Shop-now {
+  width: 98%;
+  background-color: #000;
+  color: white !important;
+}
+.btn-Shop-now:hover {
+  background-color: #e6daf2;
+  color: black !important;
+}
+.btn-Add-to-bag {
+  width: 97%;
+  border: 1px solid #000;
+}
+.btn-Add-to-bag:hover {
+  background-color: #785a98;
+  color: white;
+  border: none;
+}
+.btn {
+  font-size: 0.96rem;
+  font-family: Jost-Regular, Jost;
+  color: #000;
+  line-height: 1.8rem;
+  border-radius: 0 0 0 0;
+  margin-left: 1.5%;
+}

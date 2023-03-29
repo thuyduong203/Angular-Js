@@ -1,0 +1,67 @@
+.section8-test-brIMG {
+}
+.section8-test-brIMG-title {
+  font-size: 3rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  font-weight: 400;
+  color: #000;
+}
+.section8-test-brIMG-content {
+  font-size: 1rem;
+  font-family: Jost-Regular, Jost;
+  font-weight: 400;
+  color: #000;
+  margin-top: 1.5rem;
+  line-height: 2rem;
+}
+/* .section9-about-DR-1 {
+  background-image: url("/assets/image/gioi-thieu-section1.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+} */
+.section7-MakeAVisit-col1 {
+  width: 49%;
+  float: left;
+  background-color: #f6f1ee !important;
+  padding-top: 74px;
+  padding-bottom: 100px;
+}
+.section7-MakeAVisit-col2 {
+  width: 51%;
+  float: right;
+}
+.section9-about-DR-2 {
+  padding-left: 300px;
+}
+.section9-about-DR-2 {
+  margin-top: 500px !important;
+  height: 500px;
+  background-image: url("/assets/image/gioi-thieu-section2.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.section9-about-DR-3 {
+  margin-top: 500px !important;
+  height: 500px;
+  background-image: url("/assets/image/gioi-thieu-section1.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.text-anh2 {
+  margin-top: 2%;
+  width: 50%;
+  float: right;
+  margin-right: 15% !important;
+}
+.text-anh2 .section8-test-brIMG-content {
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: black;
+}
+.text-anh2-title {
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: black;
+}

@@ -1,0 +1,331 @@
+{
+  "listSP": [
+    {
+      "name": "DR Forever 1",
+      "gia": "US$1,313",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "hinhAnh": "image1.jpg",
+      "category": "Engagement Ring",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "DR Forever 2",
+      "hinhAnh": "image2.jpg",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,213",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "3",
+      "name": "DR Forever 3",
+      "hinhAnh": "image3.jpg",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,513",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "4",
+      "name": "DR Forever 4",
+      "hinhAnh": "image11.jpg",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,453",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "5",
+      "name": "DR Forever 5",
+      "hinhAnh": "image15.jpg",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,318",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "6",
+      "name": "DR Forever 6",
+      "hinhAnh": "image13.jpg",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,523",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "7",
+      "name": "DR Forever 7",
+      "hinhAnh": "image14.jpg",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,658",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "8",
+      "name": "DR Forever 8",
+      "hinhAnh": "image16.jpg",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,745",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "9",
+      "name": "DR Forever 9",
+      "hinhAnh": "wedding.webp",
+      "moTa": "DR HEART Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$2,745",
+      "category": "Wedding Ring"
+    },
+    {
+      "id": "10",
+      "name": "DR Round 10",
+      "hinhAnh": "wedding1.webp",
+      "moTa": "DR HEART Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$2,045",
+      "category": "Wedding Ring"
+    },
+    {
+      "id": "11",
+      "name": "DR Forever 11",
+      "hinhAnh": "wedding2.webp",
+      "moTa": "DR HEART Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,445",
+      "category": "Wedding Ring"
+    },
+    {
+      "id": "12",
+      "name": "DR Forever 12",
+      "hinhAnh": "wedding3.webp",
+      "moTa": "DR HEART Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,862",
+      "category": "Wedding Ring"
+    },
+    {
+      "id": "13",
+      "name": "DR Forever 13",
+      "hinhAnh": "wedding4.webp",
+      "moTa": "DR HEART Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$2,025",
+      "category": "Wedding Ring"
+    },
+    {
+      "id": "14",
+      "name": "DR Forever 14",
+      "hinhAnh": "image17.webp",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,398",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "15",
+      "name": "DR Forever 15",
+      "hinhAnh": "engage2.webp",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,528",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "16",
+      "name": "DR Forever 16",
+      "hinhAnh": "engage3.webp",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,628",
+      "category": "Engagement Ring"
+    },
+    {
+      "id": "17",
+      "name": "DR Forever 17",
+      "hinhAnh": "engage4.webp",
+      "moTa": "DR FOREVER Round Solitaire with 6-Prong Engagement Ring",
+      "gia": "US$1,455",
+      "category": "Engagement Ring"
+    },
+    {
+      "name": "hihiiiii",
+      "gia": "2000$",
+      "moTa": "Thuy duong xih",
+      "hinhAnh": "product7_wedding.webp",
+      "category": "Engagement Ring",
+      "id": "5Udhoav"
+    },
+    {
+      "name": "Thuy duong 2k3",
+      "gia": "Thuy duong 29",
+      "moTa": "nguyen thi thuy duong 948",
+      "hinhAnh": "product5_wedding.webp",
+      "category": "Wedding Ring",
+      "id": "bQFBnbk"
+    },
+    {
+      "name": "thuy duong 19/2",
+      "gia": "320000",
+      "moTa": "Test select ah",
+      "hinhAnh": "product10_engage.webp",
+      "category": "update duoc roi nayyy",
+      "id": "bC4EJYp"
+    }
+  ],
+  "listCategory": [
+    {
+      "id": "1",
+      "name": "Engagement Ring"
+    },
+    {
+      "id": "2",
+      "name": "Wedding Ring"
+    },
+    {
+      "name": "<3",
+      "id": "5"
+    },
+    {
+      "name": "update duoc roi nayyy",
+      "id": "6"
+    },
+    {
+      "name": "hmmmm",
+      "id": "xG-1p40"
+    },
+    {
+      "name": "hihiiiii",
+      "gia": "100",
+      "moTa": "Thuy duong xinh da them chiec nhan nay=.=",
+      "hinhAnh": "product7_wedding.webp",
+      "categoryName": {
+        "id": "2",
+        "name": "Wedding Ring"
+      },
+      "id": "ofRQ_PT"
+    }
+  ],
+  "account": [
+    {
+      "id": "1",
+      "matKhau": "12123",
+      "email": "nguyenthuyduong@gmail.com",
+      "role": 1,
+      "name": "thuyduongAdmin",
+      "diaChi": "Tuyen Quang",
+      "gioiTinh": "Women"
+    },
+    {
+      "matKhau": "thuyduong29",
+      "email": "duongnguyen@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "aEUbNdq"
+    },
+    {
+      "matKhau": "12345duong",
+      "email": "duongnguyen@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "gZvxxyX"
+    },
+    {
+      "matKhau": "hangnguyen",
+      "email": "hangnguyen@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "4bA2rUo"
+    },
+    {
+      "matKhau": "12345hang",
+      "email": "hangnguyen@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "-gRYciL"
+    },
+    {
+      "matKhau": "nguyenvana",
+      "email": "nguyenvana@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "7Ut_HCW"
+    },
+    {
+      "matKhau": "12345aaaa",
+      "email": "nguyenvana@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "yon6heK"
+    },
+    {
+      "matKhau": "4567890",
+      "email": "nguyenvana@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "ljkgH90"
+    },
+    {
+      "matKhau": "moithem",
+      "email": "nguyenvana@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "VlAwkWG"
+    },
+    {
+      "matKhau": "nguyenvanamm",
+      "email": "nguyenvana@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "iZNmnVP"
+    },
+    {
+      "matKhau": "nguyenvanammddd",
+      "email": "nguyenvana@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "AW7Rpl3"
+    },
+    {
+      "matKhau": "23456789",
+      "email": "tuanbc@gmail.com",
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "NI1Lbyt"
+    },
+    {
+      "role": 2,
+      "name": "",
+      "diaChi": "",
+      "gioiTinh": "Secret",
+      "id": "ri5eNhM"
+    }
+  ],
+  "listTest": [
+    {
+      "id": 1,
+      "category": {
+        "id": "1",
+        "name": "loai 1"
+      },
+      "name": "sp1"
+    }
+  ],
+  "gioHang": [
+    {
+      "idSP": "1",
+      "idKH": "1",
+      "trangThai": "1"
+    }
+  ]
+}

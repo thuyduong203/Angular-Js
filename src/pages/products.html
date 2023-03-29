@@ -1,0 +1,43 @@
+<div class="container product">
+  <div class="category-left">
+    <p>Category</p>
+    <ul>
+      <li class="category-ul-li">
+        <a href="#product-category/all-products">All</a>
+        <hr />
+      </li>
+      <li ng-repeat="cate in listCategory" class="category-ul-li">
+        <a href="#product-category/{{cate.id}}">{{cate.name}}</a>
+        <hr />
+      </li>
+    </ul>
+  </div>
+  <div class="product-right">
+    <div class="container text-center">
+      <div class="row">
+        <div
+          class="col-xl-3 col-lg-4 col-md-6 col-sm-12 product-col-card"
+          ng-repeat="sp in listProduct"
+        >
+          <a href="#detail-topseller/{{sp.id}}">
+            <div class="card product-card" style="width: 14rem">
+              <img
+                width="5%"
+                src="../assets/image/{{sp.hinhAnh}}"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p>
+                  <!-- DR FOREVER Round Solitaire with 6-Prong Engagement Ring -->
+                  <span class="product-sp-moTa">{{sp.moTa}}</span>
+                </p>
+                <p class="product-price">{{sp.gia}}</p>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

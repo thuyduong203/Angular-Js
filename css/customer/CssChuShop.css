@@ -1,0 +1,49 @@
+footer {
+  margin-top: 100px;
+  clear: both;
+}
+/* .benTrai {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+} */
+body {
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+}
+header {
+  margin-left: 20%;
+}
+.menu-left {
+  margin-left: 5%;
+  width: 15%;
+  /* border-right: 1px solid #000; */
+  float: left;
+}
+.menu-left-ul-li {
+  list-style: none;
+  margin-top: 30px;
+}
+.menu-left-ul-li a {
+  text-decoration: none;
+  color: black;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+}
+.menu-left-ul-li a:hover {
+  text-decoration: underline;
+}
+.content-right {
+  float: right;
+  width: 77%;
+  margin-right: 3%;
+}
+.hmmmm {
+  width: 25%;
+}
+.table {
+  border-left: 1px solid rgb(202, 197, 197) !important;
+}
+th,
+td {
+  /* text-align: center; */
+  vertical-align: middle;
+}

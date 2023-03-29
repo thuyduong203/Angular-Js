@@ -1,0 +1,49 @@
+<div class="container text-center form-login">
+  <h3 class="form-login-tilte">Hi ~ Welcome to DR</h3>
+  <form action="" name="formDK">
+    <div class="mb-3">
+      <input
+        ng-model="form_acc.email"
+        type="email"
+        class="form-control login-input"
+        id="exampleFormControlInput1"
+        name="email"
+        required
+      />
+      <small ng-hide="formDK.email.$valid" class="text-danger"
+        >Không được để trống</small
+      >
+    </div>
+    <div class="mb-3">
+      <input
+        ng-model="form_acc.matKhau"
+        type="password"
+        class="form-control login-input"
+        id="exampleFormControlInput1"
+        placeholder="Pass word"
+        name="matKhau"
+        required
+      />
+      <small ng-hide="formDK.matKhau.$valid" class="text-danger"
+        >Không được để trống</small
+      >
+    </div>
+  </form>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <a href="#create-acc">
+      <button class="btn btn-primary login-btn-Sign-in" type="button">
+        Create account
+      </button></a
+    >
+  </div>
+  <br />
+  <p class="login-forgot-pass">
+    By creating this account, you agree to the DR's user registration agreement
+    and privacy terms
+  </p>
+  <br /><br />
+  <div class="create-account">
+    <h3 class="form-login-tilte">Already have one</h3>
+    <a href="#login">Sign in ></a>
+  </div>
+</div>

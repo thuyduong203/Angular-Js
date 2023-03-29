@@ -1,0 +1,330 @@
+.title1 {
+  padding: 10px;
+  background-color: #785a98;
+  color: white;
+}
+.iconSearch {
+  border: none;
+  background-color: white;
+}
+.iconSearch :hover {
+  color: #785a98;
+}
+/* .menuContactLogo-ul {
+  list-style: none;
+  display: block;
+} */
+.menuContactLogo-ul-li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.menuContactLogo-ul-li :hover {
+  list-style: none;
+  display: inline-block;
+  color: #785a98;
+  font-weight: bold;
+}
+.menuNgang-ul-li {
+  margin-top: 25px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+.menuNgang-ul-li a h3 {
+  /* font-size: 2.06rem; */
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: #000;
+  /* line-height: 2.53rem;
+  letter-spacing: 2.5px; */
+}
+.menuNgang-ul-li :hover {
+  list-style: none;
+  display: inline-block;
+  color: #785a98;
+  /* font-weight: bold; */
+}
+.section1-TopSellers {
+  margin-top: 70px;
+}
+.TopSellers-title {
+  margin-bottom: 40px;
+}
+.card-row-TopSellers {
+  padding-top: 20px;
+}
+.card-test-marginTop {
+  margin-top: 30px !important;
+  /* border: none; */
+}
+/* .card-test-marginTop:hover {
+  border: 1px, solid, black !important;
+}
+.col-card:hover {
+  border: 1px, solid, black !important;
+} */
+.section2-aboutDR {
+  margin-top: 150px;
+}
+.AboutDR-text {
+  font-family: Courier New Lucida Console;
+  margin-top: 30px;
+  line-height: 3em;
+}
+.section3-card2img-img1 {
+  width: 45%;
+  float: left;
+}
+.section3-card2img-img2 {
+  width: 45%;
+  float: right;
+  margin-left: 30px;
+}
+.section3-card2img-text {
+  height: 1.32rem;
+  font-size: 1.24rem;
+  /* font-family: PlayfairDisplay-Regular, PlayfairDisplay !important; */
+  font-weight: 350;
+  color: #000;
+  line-height: 4.32rem;
+  -webkit-background-clip: text;
+  margin-top: 0.22rem;
+}
+.SlideMini {
+  width: 40%;
+}
+.section4-card2img-img1 {
+  width: 45%;
+  float: left;
+}
+.section4-card2img-img2 {
+  width: 45%;
+  float: right;
+  margin-left: 30px;
+}
+.TopSellers-title h2 {
+  font-weight: 550 !important;
+  font-size: 2.06rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: #000;
+  line-height: 2.53rem;
+  letter-spacing: 2.5px;
+}
+.card-test-marginTop img {
+  width: 75%;
+  margin-left: 15%;
+}
+.section4-card2img-text {
+  font-weight: lighter;
+}
+.div-hack-khoang-trang {
+  clear: both;
+  width: 200px;
+  background-color: white;
+}
+.div-section5-OurProcess {
+  margin-top: 100px;
+}
+.section5-OurProcess {
+  padding-top: 50px;
+  clear: both;
+  padding-bottom: 50px;
+  background-color: #f6f1ee;
+}
+/* .section3-card2img {
+  margin-bottom: 50px;
+} */
+.title-h1 {
+  font-weight: 350;
+  font-size: 3rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  font-weight: 400;
+  color: #000;
+}
+.card-OurProcess {
+  margin-right: 5px;
+  border: none;
+  background-color: #f6f1ee;
+}
+.card-OurProcess img {
+  width: 50% !important;
+  padding-left: 18%;
+  padding-top: 20px;
+}
+.section5-OurProcess-text {
+  margin-top: 50px;
+  color: gray;
+}
+.section6-TheirLove-col2-h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  font-weight: 400;
+  color: #000;
+}
+.section6-TheirLove {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.section6-TheirLove-col2 {
+  padding-left: 60px;
+}
+.section6-TheirLove-col2-readMore {
+  width: 150px;
+  min-height: 40px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  font-weight: lighter;
+}
+.section6-TheirLove-col2-readMore:hover {
+  background-color: #785a98;
+  color: white;
+}
+.section7-MakeAVisit {
+  background-color: #f6f1ee !important;
+}
+.section7-MakeAVisit-col1 {
+  width: 50%;
+  float: left;
+  background-color: #f6f1ee !important;
+  padding-top: 64px;
+  padding-right: 50px;
+  /* padding-bottom: 600px; */
+}
+.section7-MakeAVisit-col2 {
+  width: 50%;
+  float: right;
+}
+.section7-MakeAVisit-col2 img {
+  width: 100%;
+}
+footer {
+  clear: both;
+  background-color: #ffffff;
+}
+.footer-tag {
+  border-top: 4px solid #785a98;
+  margin-top: 50px !important;
+  /* width: auto; */
+  height: 500px;
+  background-color: #ffffff;
+  padding-top: 40px;
+}
+.ele-col {
+  text-align: left;
+}
+.title-col23 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.ele-col-ul-li {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ele-col-ul1 {
+  padding-left: 0px;
+  float: left;
+}
+.ele-col-ul2 {
+  float: right;
+  padding-left: 0px;
+}
+.text-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.footer-logo {
+  margin-bottom: 17px;
+}
+.ele-col-3 {
+  text-align: left;
+  padding-left: 50px;
+}
+.style-col3 {
+  margin-top: 20px;
+}
+/* .menu-ngang-col3-item {
+  float: right;
+  text-align: left;
+} */
+.menu-ngang-col3-ul {
+  float: left;
+}
+.menu-ngang-col3-ul-li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+.menu-ngang-col3-item {
+  color: #666666;
+}
+.menu-ngang-col3-item-gia {
+  color: black;
+  font-weight: bold;
+}
+.rowBtn a {
+  display: inline-block;
+  height: 41px;
+  width: 41px;
+  font-size: 16px;
+  color: #404040;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+  line-height: 38px;
+  text-align: center;
+  background: #ffffff;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  margin-right: 10px;
+}
+.rowBtn a:hover {
+  display: inline-block;
+  height: 41px;
+  width: 41px;
+  font-size: 16px;
+  color: #404040;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+  line-height: 38px;
+  text-align: center;
+  background: #66cc33;
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  margin-right: 10px;
+}
+.row2 {
+  text-align: center;
+  margin-top: 20px;
+  border-top: #999999 solid 2px;
+}
+.row2-text {
+  float: left;
+  text-align: left;
+  color: #999999;
+  width: 50%;
+}
+.row2-text a {
+  text-decoration: none;
+}
+.logoFooter {
+  margin-left: 260px;
+  text-align: right;
+  width: 30%;
+}
+.row2 {
+  padding-top: 30px;
+}
+.card-seller-and-new a {
+  color: #000;
+  text-decoration: none;
+}
+.card-seller-and-new a:hover {
+  text-decoration: underline;
+}

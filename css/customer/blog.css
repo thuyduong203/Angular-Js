@@ -1,0 +1,10 @@
+.card-blog {
+  font-size: 1rem;
+  font-family: Jost-Regular, Jost;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.4rem;
+  text-overflow: ellipsis;
+  margin-bottom: 0.3rem;
+  margin-top: 0.1rem;
+}

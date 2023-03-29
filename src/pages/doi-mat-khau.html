@@ -1,0 +1,52 @@
+<div class="container doi-mat-khau">
+  <h2 class="text-center">Doi mat khau</h2>
+  <form action="" name="formDoiMK">
+    Nhap mk hien tai:
+    <input
+      ng-model="mkHienTai"
+      type="password"
+      class="form-control"
+      placeholder="Mk hien tai..."
+      aria-label="City"
+      name="mkHienTai"
+      required
+    />
+    <small ng-hide="formDoiMK.mkHienTai.$valid" class="text-danger">
+      Không được để trống </small
+    ><br />
+    <br />
+    Nhap mk moi:
+    <input
+      ng-model="form_doiMK.matKhau"
+      type="password"
+      class="form-control"
+      placeholder="Mk moi..."
+      aria-label="City"
+      name="mkMoi"
+      required
+    />
+    <small ng-hide="formDoiMK.mkMoi.$valid" class="text-danger">
+      Không được để trống
+    </small>
+    <br />
+    <br />
+    Xac nhan mk moi:
+    <input
+      ng-model="xacNhanMKMoi"
+      type="password"
+      class="form-control"
+      placeholder="Xac nhan mk moi..."
+      aria-label="City"
+      name="xacNhan"
+      required
+    /><small ng-hide="formDoiMK.xacNhan.$valid" class="text-danger">
+      Không được để trống
+    </small>
+  </form>
+  <br />
+  <a href="#xac-nhan-doi-mk"
+    ><button type="button" class="btn btn-outline-secondary">
+      Thay doi mk
+    </button></a
+  >
+</div>

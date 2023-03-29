@@ -1,0 +1,56 @@
+.product {
+  font-size: 2.06rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: #000;
+  line-height: 2.53rem;
+  letter-spacing: 2.5px;
+}
+.category-left {
+  float: left;
+  width: 20%;
+  border-right: 1px solid black;
+}
+.product-right {
+  float: right;
+  width: 75%;
+}
+.category-ul-li {
+  list-style: none;
+}
+.category-ul-li a {
+  text-decoration: none;
+  font-size: 1.46rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: #000;
+  line-height: 1.93rem;
+  letter-spacing: 1.9px;
+}
+.category-ul-li a:hover {
+  text-decoration: underline;
+}
+.product-sp-moTa {
+  font-size: 1.06rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: #000;
+  line-height: 0.5rem !important;
+  letter-spacing: 0.5px !important;
+}
+.product-col-card a {
+  text-decoration: none;
+  color: #000;
+}
+.product-price {
+  font-size: 1.06rem;
+  font-family: PlayfairDisplay-Regular, PlayfairDisplay;
+  color: #000;
+  line-height: 0.5rem !important;
+  letter-spacing: 0.5px !important;
+}
+.product-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px !important;
+}
+.product-col-card a:hover {
+  text-decoration: underline;
+}

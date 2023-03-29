@@ -1,0 +1,59 @@
+<h3 class="container text-center">San pham da mua</h3>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Tat Ca</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Da mua</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Dang giao</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">Da huy</a>
+    </li>
+  </ul>
+  <table class="table table-striped-columns">
+    <tr>
+      <td class="col1">
+        <img
+          src="../assets/image/{{listProduct[2].hinhAnh}}"
+          width="90%"
+          alt=""
+        />
+      </td>
+      <td class="col2">
+        {{listProduct[2].name}} <br />
+        {{listProduct[2].moTa}}
+      </td>
+      <td class="col3">{{listProduct[2].gia}}</td>
+      <td class="col4">1</td>
+      <td class="col5">{{listProduct[2].gia}}</td>
+      <td class="col6">
+        Xoa <br />
+        <a href="#/product-category/all-products">Tim sp khac</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="col1">
+        <img
+          src="../assets/image/{{listProduct[15].hinhAnh}}"
+          width="90%"
+          alt=""
+        />
+      </td>
+      <td class="col2">
+        {{listProduct[15].name}} <br />
+        {{listProduct[15].moTa}}
+      </td>
+      <td class="col3">{{listProduct[15].gia}}</td>
+      <td class="col4">1</td>
+      <td class="col5">{{listProduct[15].gia}}</td>
+      <td class="col6">
+        Xoa <br />
+        <a href="#/product-category/all-products">Tim sp khac</a>
+      </td>
+    </tr>
+  </table>
+</div>

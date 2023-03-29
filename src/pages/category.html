@@ -1,0 +1,87 @@
+<div class="menu-left">
+  <ul class="menu-left-ul">
+    <li class="menu-left-ul-li">
+      <a href="#admin"><h4>Admin</h4></a>
+    </li>
+    <hr />
+    <li class="menu-left-ul-li">
+      <a href="#products"><h4>Product</h4></a>
+    </li>
+    <hr />
+    <li class="menu-left-ul-li">
+      <a href="#categorys"><h4>Category</h4></a>
+    </li>
+    <hr />
+  </ul>
+</div>
+<div class="content-right">
+  <div class="form-category">
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">ID:</label>
+          <input
+            ng-model="category_id"
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            disabled
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Name:</label>
+          <input
+            ng-model="form_category.name"
+            type="text"
+            class="form-control"
+            id="inputPassword4"
+          />
+        </div>
+        <br />
+        <div class="category-btn-add-update">
+          <!-- <a href="#categorys/add-category"
+            ><button
+              ng-click="addCategory($event)"
+              type="button"
+              class="btn btn-outline-secondary"
+            >
+              Add
+            </button></a
+          > -->
+          <a href="#categorys/add-category"
+            ><button type="button" class="btn btn-outline-secondary">
+              Add
+            </button></a
+          >
+          <a href="#categorys/update-category"
+            ><button type="button" class="btn btn-outline-secondary">
+              Update
+            </button></a
+          >
+        </div>
+      </form>
+    </div>
+  </div>
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th>STT</th>
+        <th>ID</th>
+        <th>Category Name</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="cate in listCategory">
+        <td>{{$index + 1}}</td>
+        <td>{{cate.id}}</td>
+        <td>{{cate.name}}</td>
+        <td>
+          <!-- <a href="#detail-topseller/{{cate.id}}">Xem chi tiet</a><br /> -->
+          <a href="#categorys/detail/{{cate.id}}">Detail</a>
+          <a href="#categorys/delete/{{cate.id}}">Xoa</a><br />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

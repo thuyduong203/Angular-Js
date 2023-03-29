@@ -1,0 +1,155 @@
+<div class="menu-left">
+  <ul class="menu-left-ul">
+    <li class="menu-left-ul-li">
+      <a href="#admin"><h4>Admin</h4></a>
+    </li>
+    <hr />
+    <li class="menu-left-ul-li">
+      <a href="#products"><h4>Product</h4></a>
+    </li>
+    <hr />
+    <li class="menu-left-ul-li">
+      <a href="#categorys"><h4>Category</h4></a>
+    </li>
+    <hr />
+  </ul>
+</div>
+<div class="content-right">
+  <div class="form-category">
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-3">
+          <label for="inputEmail4" class="form-label">ID:</label>
+          <input
+            ng-model="product_id"
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            disabled
+          />
+        </div>
+        <div class="col-md-3">
+          <label for="inputPassword4" class="form-label">Name:</label>
+          <input
+            ng-model="form_product.name"
+            type="text"
+            class="form-control"
+            id="inputPassword4"
+          />
+        </div>
+        <div class="col-md-3">
+          <label for="inputPassword4" class="form-label">Price:</label>
+          <input
+            ng-model="form_product.gia"
+            type="text"
+            class="form-control"
+            id="inputPassword4"
+          />
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Describe:</label
+            >
+            <textarea
+              ng-model="form_product.moTa"
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+        <br />
+        <div class="form-group">
+          <label for="">Category:</label>
+          <select name="" class="form-control" ng-model="form_product.category">
+            <option ng-repeat="cate in listCategory" value="{{cate.name}}">
+              {{cate.name}}
+            </option>
+          </select>
+        </div>
+        <br />
+        <div class="col-md-8">
+          <label for="inputPassword4" class="form-label">Image:</label>
+          <input
+            ng-model="form_product.hinhAnh"
+            type="text"
+            class="form-control"
+            id="inputPassword4"
+            placeholder="Xin loi co vi su hen ha nay :("
+          />
+        </div>
+        <!-- test chọn file -->
+        <div class="input-group form-control-img">
+          <input
+            type="file"
+            class="form-control"
+            id="inputGroupFile04"
+            aria-describedby="inputGroupFileAddon04"
+            aria-label="Upload"
+            select-ng-files
+            ng-model="fileArray"
+            multiple
+          />
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="inputGroupFileAddon04"
+            ng-click="uploadAnh()"
+          >
+            Xac nhan
+          </button>
+        </div>
+        <!-- end test chọn file -->
+        <br />
+        <div class="category-btn-add-update">
+          <a href="#products/add-product"
+            ><button type="button" class="btn btn-outline-secondary">
+              Add
+            </button></a
+          >
+          <a href="#products/update-product"
+            ><button type="button" class="btn btn-outline-secondary">
+              Update
+            </button></a
+          >
+        </div>
+      </form>
+    </div>
+  </div>
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th>STT</th>
+        <th>ID</th>
+        <th>Category Name</th>
+        <th>Name</th>
+        <th>Price:</th>
+        <th>Describe:</th>
+        <th>Image</th>
+        <th>Action</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="sp in listProduct">
+        <td>{{$index + 1}}</td>
+        <td>{{sp.id}}</td>
+        <td>{{sp.category}}</td>
+        <td>{{sp.name}}</td>
+        <td>{{sp.gia}}</td>
+        <td>{{sp.moTa}}</td>
+        <!-- <td>{{sp.moTa}}</td> -->
+        <td class="hmmmm">
+          <img src="../assets/image/{{sp.hinhAnh}}" alt="" width="50%" />
+        </td>
+        <td>
+          <!-- <a href="#detail-topseller/{{sp.id}}">Xem chi tiet</a><br /> -->
+          <a href="#products/detail/{{sp.id}}">Detail</a>
+          <a href="#products/delete/{{sp.id}}">Xoa</a><br />
+          <a href="#product-update/{{sp.id}}">Sua</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

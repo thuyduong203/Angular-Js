@@ -1,0 +1,39 @@
+<div class="container text-center form-login">
+  <h3 class="form-login-tilte">Sign in</h3>
+  <div class="mb-3">
+    <!-- <label for="exampleFormControlInput1" class="form-label"
+      >Email address</label
+    > -->
+    <input
+      ng-model="accName"
+      type="email"
+      class="form-control login-input"
+      placeholder="Email address"
+    />
+  </div>
+  <div class="mb-3">
+    <!-- <label for="exampleFormControlInput1" class="form-label">Pass word</label> -->
+    <input
+      ng-model="password"
+      type="password"
+      class="form-control login-input"
+      placeholder="Pass word"
+    />
+  </div>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button
+      ng-click="getAccount()"
+      class="btn btn-primary login-btn-Sign-in"
+      type="button"
+    >
+      Sign in
+    </button>
+  </div>
+  <br />
+  <p class="login-forgot-pass">Forgot password?</p>
+  <br /><br />
+  <div class="create-account">
+    <h3 class="form-login-tilte">I'm new here</h3>
+    <a href="#register">Create an account ></a>
+  </div>
+</div>
